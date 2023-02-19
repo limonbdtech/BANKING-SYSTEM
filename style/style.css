@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin-top: 50px;
+  width: 600px;
+  text-align: center;
+  background-color: bisque;
+  border-radius: 30px;
+}
+.form .icon {
+  margin-bottom: 20px;
+}
+.form .icon img {
+  width: 40px;
+}
+.form form input {
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0;
+  padding: 2px 5px;
+  font-size: 2rem;
+}
+.form form label {
+  font-size: 1.5rem;
+}
+.form form .login {
+  text-align: start;
+  padding: 1px 8px;
+  margin-bottom: 20px;
+}
+
+.dash_board {
+  position: relative;
+  display: none;
+}
+
+.log_out {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.radues {
+  border-radius: 50%;
+  border: 1px solid transparent;
+}/*# sourceMappingURL=style.css.map */
